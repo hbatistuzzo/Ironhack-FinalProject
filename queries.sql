@@ -1,1 +1,1 @@
-asda
+FROM os SELECT *;
