@@ -121,7 +121,7 @@ India (red in the first graph) shows yet another pattern, more logarithmic than 
 As the IT field expands in Brazil, it is expected that the distribution will shift to the right, becoming more normal as well.
 
 <p align="center">
-    <img width="75%" src="Images/exercise.png">
+    <img width="80%" src="Images/exercise.png">
 </p>
 
 A number of other inferences can be shown when plotting salary against other variables. Some are unsurprising (there is a linear correlation between age and better salaries. Bigger companies usually correlate with better paying jobs etc).
