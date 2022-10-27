@@ -8,28 +8,14 @@ This data viz project comes from the fintech AME-Digital's case for Data Enginee
 Nearly 100,000 developers took the 30-minute survey in January 2018, answering questions ranging from basic info (gender, age, job title, annual salary estimate) to subjective opinions regarding ethics in coding and responsability towards AI creations.
 As 
 
-# Methods
-
-Web Scrapping
-
-ETL pipeline
-
-Filtering
-
-Machine Learn
-
-Visualization
+![plot](Images/intro.jpg)
 
 # Technologies
 
 Python
-
-MYSQL
-
+MySQL
 Pandas
-
 Sklearn
-
 Tableau
 
 # Project Description / Motivation
