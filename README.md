@@ -46,7 +46,16 @@ My final project aimed to focus on data viz, thus after answering the case's que
 
 ## Data Inspection and cleaning
 
-67,441 respondents (68.2%) fully completed the survey.
+Of a total of 98,855 respondents, 67,441 (68.2%) fully completed the survey. Their answers are available in the csv file "survey_results_public.csv" and were transported into a
+Pandas DataFrame for inspection. As the snapshot below shows, most of the data was previously curated.
+
+<img src="/Images/snapshot.png" align="center" width="100%"/>
+
+Cleaning was therefore limited to reindexing, converting NaNs to 0.0 for salaries and converting Yes/No questions to 1's and 0's, as requested on the case description.
+This proved useful later when building the predictive model due to a faster processing of numerical rather than categorical variables.
+Some questions e.g. "LanguageWorkedWith" which involved multiple inputs required processing for isolating multiple answers with split and explode methods.
+
+<img src="/Images/snapshot2.png" align="center" width="100%"/>
 
 ## Populating the data bank.
 
@@ -54,3 +63,6 @@ The data bank structure is provided by the case itself and can be seen in the fi
 
 ![plot](Images/databank_structure.png)
 
+
+
+<img src="/previews/preview.gif" align="right" width="32%"/>
