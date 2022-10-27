@@ -57,6 +57,9 @@ Some questions e.g. "LanguageWorkedWith" which involved multiple inputs required
 
 <img src="/Images/snapshot2.png" align="center" width="100%"/>
 
+Care should be taken when using this sort of data as a proxy for the state of Information Technology around the world. As we will show, the vast majority of respondents are men from the United States. Although several other countries are present
+in this survey, some are artificially excluded by a matter of language barriers: users from China, South Korea and Japan, for example, are massively underrepresented in this survey.
+
 Some of the most precious variables from this dataset are undoubtedly the ones concerning salaries. The Stack Overflow survey included an extra variable "Converted Salary" which
 normalizes all the inputs to a single format: yearly salary in US$. This is exceptional considering that input by respondents came in myriad formats regarding currencies
 and salary types (e.g. yearly, monthly or weekly). These were all done for the current exchange rates from January 2018.
@@ -85,6 +88,27 @@ Hidden beneath this plot, however, are discrepancies that arise from the respond
 
 A number of other factors play a role here, ranging from the years of experience that an employee has with coding to the size of the company in which they are employed.
 
+### Nationality and Gender
+<p align="center">
+    <img width="75%" src="Images/countries.png">
+</p>
+Stack Overflow users from the United States dominate the survey, followed by countries from the G7 and BRICS groups (China being the biggest exception due to the language barrier discussed in the beginning).
+
+<p align="center">
+    <img width="75%" src="Images/gender.png">
+</p>
+
+On all of these countries, gender displays a persistent pattern: on average, less than 10% of respondents are female.
+
+
+<p align="center">
+    <img width="75%" src="Images/money3.png">
+</p>
+
+
+<p align="center">
+    <img width="75%" src="Images/money4.png">
+</p>
 
 <br><br>
 
