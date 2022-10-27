@@ -1,7 +1,7 @@
 # Ironhack Final Project: Case AME-Digital
 
 Project status: Completed
-![plot](Images/ironbadge.png)
+<p align="right"><img src="Images/ironbadge.png" width="300" alt="Logo"></p>
 
 # Project objective
 
@@ -54,6 +54,3 @@ The data bank structure is provided by the case itself and can be seen in the fi
 
 ![plot](Images/databank_structure.png)
 
-test
-
-<p align="center"><img src="Images/intro.jpg" width="200" alt="Logo"></p>
