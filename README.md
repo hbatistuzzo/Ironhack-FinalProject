@@ -104,16 +104,21 @@ On all of these countries, gender displays a persistent pattern: on average, les
 </p>
 
 
-
+The distribution of salaries is heavily dependent on nationality, as we can see below. Rich countries like the US and England display normal distributions (as Kolmogorov-Smirnov tests quickly shows us), although the average salary shifts almost by 50% between the 2 curves.
+The US by far concentrates the number of rich and "astronomically" rich respondents, but there are no discrepancies or excessive kurtosis in either side.
 
 <p align="center">
     <img width="75%" src="Images/money3.png">
 </p>
 
+Germany is an interesting case, shown below, as the distribution is actually bimodal. A fellow data analyst from Germany believes that this could have a sociological explanation as part of a recent migration flux (mostly from Turkey) is absorbed into less regulated (and less paying) jobs in IT companies.
 
 <p align="center">
     <img width="75%" src="Images/money4.png">
 </p>
+
+India (red in the first graph) shows yet another pattern, more logarithmic than normal, with a massive number of low-paying jobs. Brazil finds itself roughly between the pattern shown in India and those of 1st-world countries.
+As the IT field expands in Brazil, it is expected that the distribution will shift to the right, becoming more normal as well.
 
 <br><br>
 
