@@ -1,6 +1,7 @@
 # Ironhack Final Project: Case AME-Digital
 
-Project status: in progress
+Project status: Completed
+![plot](Images/ironbadge.png)
 
 # Project objective
 
