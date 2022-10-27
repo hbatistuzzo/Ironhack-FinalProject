@@ -94,7 +94,7 @@ A number of other factors play a role here, ranging from the years of experience
 
 Stack Overflow users from the United States dominate the survey, followed by countries from the G7 and BRICS groups (China being the biggest exception due to the language barrier discussed in the beginning).
 <p align="center">
-    <img width="50%" src="Images/countries.png">
+    <img width="75%" src="Images/countries.png">
 </p>
 
 
