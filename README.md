@@ -93,6 +93,12 @@ A number of other factors play a role here, ranging from the years of experience
 
 
 
+
+
+
+
+
+
 ### Nationality and Gender
 
 Stack Overflow users from the United States dominate the survey, followed by countries from the G7 and BRICS groups (China being the biggest exception due to the language barrier discussed in the beginning).
