@@ -72,11 +72,13 @@ Out of 47,702 entries, about 80% of entries are up to 100k US$/year. This rises 
 Highlighted in the plot are two conspicuous features: outliers for salaries exactly at 1 million and 2 million US$/year. These suggest that some respondents rounded their revenue for convenience.
 
 
-<img src="/Images/money2.png" align="right" width="50%"/>
+<img src="/Images/money2.png" align="right" width="60%"/>
 If we filter a range of people earning at least a minimum wage (for Brazilian standards in 2018, roughly 3,000 US$/year) up to 500,000 US$/year (rich, but not astronomically so),
 the distribution becomes roughly logarithmic.
-<br>
+
+
 Hidden beneath this plot, however, are discrepancies that arise from the respondent profile: their gender, for example, betray a salary gap *dependent* on their nationality, as we will see below in detail.
+
 
 A number of other factors play a role here, ranging from the years of experience that an employee has with coding to the size of the company in which they are employed.
 
