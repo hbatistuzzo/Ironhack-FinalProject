@@ -53,3 +53,7 @@ My final project aimed to focus on data viz, thus after answering the case's que
 The data bank structure is provided by the case itself and can be seen in the figure below:
 
 ![plot](Images/databank_structure.png)
+
+test
+
+<p align="center"><img src="Images/intro.jpg" width="200" alt="Logo"></p>
