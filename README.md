@@ -88,28 +88,19 @@ Hidden beneath this plot, however, are discrepancies that arise from the respond
 
 A number of other factors play a role here, ranging from the years of experience that an employee has with coding to the size of the company in which they are employed.
 
-
-
-
-
-
-
-
-
-
-
+<br><br>
 
 ### Nationality and Gender
 
 Stack Overflow users from the United States dominate the survey, followed by countries from the G7 and BRICS groups (China being the biggest exception due to the language barrier discussed in the beginning).
 <p align="center">
-    <img width="75%" src="Images/countries.png">
+    <img width="50%" src="Images/countries.png">
 </p>
 
 
 On all of these countries, gender displays a persistent pattern: on average, less than 10% of respondents are female.
 <p align="center">
-    <img width="50%" src="Images/gender.png">
+    <img width="75%" src="Images/gender.png">
 </p>
 
 
