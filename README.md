@@ -137,7 +137,6 @@ I should, however, point to the fact that there are myriad interesting conclusio
 
 When answering the question "Whose responsibility is it, **primarily**, to consider the ramifications of increasingly advanced AI technology?", almost half perceive this responsibility to fall in the lap of the developers themselves, followed by those who believe that either the government or Elon Musks should take the reins of the situation. Almost 10%, however, steer towards full AI anarchy.
 
-<br><br>
 
 Finally, on the subject of the salary gender gap, the following graph shows that the gap, albeit prevalent almost everywhere, varies from country to country. Please observe that the x-axis scale is logarithmic, thus the gap is deceivingly larger than visually represented. The gap is more prevalent in countries such as Russia, Australia and India. Others, such as Brazil, display more gender equality *but* we should also note that outliers i.e. the rich and astronomically rich are always more prevalent for men than women. To conclude, we must not forget that women are severely underrepresented in this survey, so inferences from the outliers alone should be taken with a grain of salt.
 
@@ -152,5 +151,43 @@ After these inspections were done, it was finally time to construct the databank
 The data bank structure is provided in the case documentation and can be seen in the figure below:
 
 <p align="center">
-    <img width="75%" src="Images/databank_structure.png">
+    <img width="100%" src="Images/databank_structure.png">
+</p>
+
+
+Queries were made directly in MySQL workbench after ingestion, as seen in the example below.
+
+<p align="center">
+    <img width="100%" src="Images/query.png">
+</p>
+
+
+# Modelling
+
+blablabla
+<p align="center">
+    <img width="100%" src="Images/model1.png">
+</p>
+
+blablabla
+<p align="center">
+    <img width="100%" src="Images/model2.png">
+</p>
+
+blablabla
+<p align="center">
+    <img width="100%" src="Images/model3.png">
+</p>
+
+blablabla
+<p align="center">
+    <img width="100%" src="Images/model4.png">
+</p>
+
+
+# Conclusion
+
+blablabla
+<p align="center">
+    <img width="100%" src="Images/ohoh.png">
 </p>
