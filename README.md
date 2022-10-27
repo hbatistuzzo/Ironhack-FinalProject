@@ -120,31 +120,37 @@ Germany is an interesting case, shown below, as the distribution is actually bim
 India (red in the first graph) shows yet another pattern, more logarithmic than normal, with a massive number of low-paying jobs. Brazil finds itself roughly between the pattern shown in India and those of 1st-world countries.
 As the IT field expands in Brazil, it is expected that the distribution will shift to the right, becoming more normal as well.
 
+A number of other inferences can be shown when plotting salary against other variables. Some are unsurprising (there is a linear correlation between age and better salaries. Bigger companies usually correlate with better paying jobs etc).
+Some are interesting, perhaps, as didactic exercise: as shown in the graph below, people with better salaries tend to exercise more. The question is: do they exercise more *because* they have better salaries (improving quality of live) or could there be a relationship between productivity and those who are more active?
+
 <p align="center">
     <img width="75%" src="Images/exercise2.png">
 </p>
 
-A number of other inferences can be shown when plotting salary against other variables. Some are unsurprising (there is a linear correlation between age and better salaries. Bigger companies usually correlate with better paying jobs etc).
-Some are interesting, perhaps, as didactic exercise: as shown in the graph below, people with better salaries tend to exercise more. The question is: do they exercise more *because* they have better salaries (improving quality of live) or could there be a relationship between productivity and those who are more active?
-At this point many a frustrated statistician could feel inclined to shout at the screen the maxim that "correlation does not imply causation", and we will move on to more objective (or, rather, *less* *subjective*) insights.
+At this point many a frustrated statistician could feel inclined to shout at the screen the maxim that "correlation does not imply causation!", and we will move on to more objective (or, rather, *less* *subjective*) insights.
 
 
-I should, however, point to the fact that there are myriad interesting conclusions that come from simply tallying the answers to categorical, opinion-based questions. Against
-the unspoken rules of data viz, some even benefit from being displayed on the outcast of plots, the poor pie graph:
+I should, however, point to the fact that there are myriad interesting conclusions that come from simply tallying the answers to categorical, opinion-based questions. Against the unspoken rules of data viz, some even benefit from being displayed on the outcast of plots, the poor pie graph:
 <p align="center">
     <img width="100%" src="Images/AI.png">
 </p>
 
-When answering the question "Whose responsibility is it, <u>primarily</u>, to consider the ramifications of increasingly advanced AI technology?", almost half perceive this responsibility to fall in the lap of the developers themselves,
-followed by those who believe that either the government or Elon Musks should take the reins of the situation. Almost 10%, however, steers towards full AI anarchy.
+When answering the question "Whose responsibility is it, **primarily**, to consider the ramifications of increasingly advanced AI technology?", almost half perceive this responsibility to fall in the lap of the developers themselves, followed by those who believe that either the government or Elon Musks should take the reins of the situation. Almost 10%, however, steer towards full AI anarchy.
 
 <br><br>
 
+Finally, on the subject of the salary gender gap, the following graph shows that the gap, albeit prevalent almost everywhere, varies from country to country. Please observe that the x-axis scale is logarithmic, thus the gap is deceivingly larger than visually represented. The gap is more prevalent in countries such as Russia, Australia and India. Others, such as Brazil, display more gender equality *but* we should also note that outliers i.e. the rich and astronomically rich are always more prevalent for men than women. To conclude, we must not forget that women are severely underrepresented in this survey, so inferences from the outliers alone should be taken with a grain of salt.
+
+<p align="center">
+    <img width="100%" src="Images/gendersalary.png">
+</p>
+
+After these inspections were done, it was finally time to construct the databank and target the questions from the case itself. I thank the creators of SQLAlchemy for this amazing tool which severely speeds up the process of data ingestion, especially when transporting it from previous Pandas DataFrames.
+
 ## Populating the data bank.
 
-The data bank structure is provided by the case itself and can be seen in the figure below:
+The data bank structure is provided in the case documentation and can be seen in the figure below:
 
 <p align="center">
     <img width="75%" src="Images/databank_structure.png">
 </p>
-
