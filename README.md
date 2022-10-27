@@ -76,8 +76,10 @@ Highlighted in the plot are two conspicuous features: outliers for salaries exac
 If we filter a range of people earning at least a minimum wage (for Brazilian standards in 2018, roughly 3,000 US$/year) up to 500,000 US$/year (rich, but not astronomically so),
 the distribution becomes roughly logarithmic.
 
+
 Hidden beneath this plot, however, are discrepancies that arise from the respondent profile: their gender, for example, betray a salary gap *dependent* on their nationality, as we will see below in detail.
-A number of other factors play a role here, ranging from the years of experience that an employee has with coding to the size of the company in which they are employed.
+
+A number of other factors play a role here, ranging from the years of experience that an employee has with coding to the size of the company in which they are employed.\
 
 
 
