@@ -120,6 +120,24 @@ Germany is an interesting case, shown below, as the distribution is actually bim
 India (red in the first graph) shows yet another pattern, more logarithmic than normal, with a massive number of low-paying jobs. Brazil finds itself roughly between the pattern shown in India and those of 1st-world countries.
 As the IT field expands in Brazil, it is expected that the distribution will shift to the right, becoming more normal as well.
 
+<p align="center">
+    <img width="75%" src="Images/exercise.png">
+</p>
+
+A number of other inferences can be shown when plotting salary against other variables. Some are unsurprising (there is a linear correlation between age and better salaries. Bigger companies usually correlate with better paying jobs etc).
+Some are interesting, perhaps, as didactic exercise: as shown in the graph below, people with better salaries tend to exercise more. The question is: do they exercise more *because* they have better salaries (improving quality of live) or could there be a relationship between productivity and those who are more active?
+At this point many a frustrated statistician could feel inclined to shout at the screen the maxim that "correlation does not imply causation", and we will move on to more objective (or, rather, *less* *subjective*) insights.
+
+
+I should, however, point to the fact that there are myriad interesting conclusions that come from simply tallying the answers to categorical, opinion-based questions. Against
+the unspoken rules of data viz, some even benefit from being displayed on the outcast of plots, the poor pie graph:
+<p align="center">
+    <img width="75%" src="Images/AI.png">
+</p>
+
+When answering the question "Whose responsibility is it, <u>primarily</u>, to consider the ramifications of increasingly advanced AI technology?", almost half perceive this responsibility to fall in the lap of the developers themselves,
+followed by those who believe that either the government or Elon Musks should take the reins of the situation. Almost 10%, however, steers towards full AI anarchy.
+
 <br><br>
 
 ## Populating the data bank.
