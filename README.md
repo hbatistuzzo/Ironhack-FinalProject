@@ -1,7 +1,7 @@
 # Ironhack Final Project: Case AME-Digital
 
 Project status: Completed
-<p align="right"><img src="Images/ironbadge.png" width="50%" alt="Logo"></p>
+<p align="right"><img src="Images/ironbadge.png" width="20%" alt="Logo"></p>
 
 # Project objective
 
