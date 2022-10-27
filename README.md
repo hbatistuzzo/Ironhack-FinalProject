@@ -64,15 +64,18 @@ and salary types (e.g. yearly, monthly or weekly). These were all done for the c
 ## Insights from salary data:
 
 <p align="center" width="100%">
-    <img width="33%" src="/Images/money1.png">
+    <img width="100%" src="/Images/money1.png">
 </p>
 
 A simple scatter plot of normalized salary entries yields a gamma distribution with some expected results:
 Out of 47,702 entries, about 80% of entries are up to 100k US$/year. This rises to  over 93% when up to 200k US$/year i.e. only a minority of respondents have "astronomical" salaries.
-If we were to filter a range of people earning at least a minimum wage (for Brazilian standards in 2018, roughly 3,000 US$/year) up to 500,000 US$/year (rich, but not astronomically so),
-the distribution is roughly logarithmic.
+Highlighted in the plot are two conspicuous features: outliers for salaries exactly at 1 million and 2 million US$/year. These suggest that some respondents rounded their revenue for convenience.
 
-<img src="/Images/money1.png" align="right" width="80%"/>
+
+<img src="/Images/money2.png" align="right" width="60%"/>
+If we filter a range of people earning at least a minimum wage (for Brazilian standards in 2018, roughly 3,000 US$/year) up to 500,000 US$/year (rich, but not astronomically so),
+the distribution becomes roughly logarithmic.
+
 
 
 ## Populating the data bank.
