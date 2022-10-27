@@ -63,7 +63,7 @@ and salary types (e.g. yearly, monthly or weekly). These were all done for the c
 
 ## Insights from salary data:
 
-<img src="/Images/money1.png" align="center" width="50%"/>
+<align="center" width="50%" img src="/Images/money1.png"/>
 
 A simple scatter plot of normalized salary entries yields a gamma distribution with some expected results:
 Out of 47,702 entries, about 80% of entries are up to 100k US$/year. This rises to  over 93% when up to 200k US$/year i.e. only a minority of respondents have "astronomical" salaries.
