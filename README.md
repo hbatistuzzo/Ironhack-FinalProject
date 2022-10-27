@@ -121,7 +121,7 @@ India (red in the first graph) shows yet another pattern, more logarithmic than 
 As the IT field expands in Brazil, it is expected that the distribution will shift to the right, becoming more normal as well.
 
 <p align="center">
-    <img width="80%" src="Images/exercise2.png">
+    <img width="75%" src="Images/exercise2.png">
 </p>
 
 A number of other inferences can be shown when plotting salary against other variables. Some are unsurprising (there is a linear correlation between age and better salaries. Bigger companies usually correlate with better paying jobs etc).
@@ -132,7 +132,7 @@ At this point many a frustrated statistician could feel inclined to shout at the
 I should, however, point to the fact that there are myriad interesting conclusions that come from simply tallying the answers to categorical, opinion-based questions. Against
 the unspoken rules of data viz, some even benefit from being displayed on the outcast of plots, the poor pie graph:
 <p align="center">
-    <img width="75%" src="Images/AI.png">
+    <img width="100%" src="Images/AI.png">
 </p>
 
 When answering the question "Whose responsibility is it, <u>primarily</u>, to consider the ramifications of increasingly advanced AI technology?", almost half perceive this responsibility to fall in the lap of the developers themselves,
