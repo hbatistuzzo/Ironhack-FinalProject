@@ -267,20 +267,25 @@ at the data itself. This investigation highlighted some odd entries, such as the
     <img width="100%" src="Images/model3.png">
 </p>
 
-But much more important (and that, in my opinion, shed light on the model's behaviour) was the following entry:
+But much more important (and which, in my opinion, shed a final light on the model's behaviour) was the following entry:
 <p align="center">
     <img width="100%" src="Images/model4.png">
 </p>
 
-blablabla
-<p align="center">
-    <img width="100%" src="Images/model4.png">
-</p>
-
+The "Converted Salary" column was taking a fairly low salary (3190 monthly Brazilian Reais) and translating it as 1 million US$ per year. Someone, somewhere, while curating
+this dataset, apparently forgot that some countries use a comma as a decimal separator, instead of a dot (as is the case for North America). Even worse, since the column was
+created using exchange rates from 2018, reconstructing the correct values was not a trivial task. To remove all of these values would significantly decrease the training and
+testing populations for the model to run, although it remains as a possible next step in investigating the database.
 
 # Conclusion
 
-blablabla
+The oxford comma is known to be the origin of myriad semantic misinterpretations in the english language and, truthfully, many other languages as well. It was unexpected, 
+however, to see this unsuspecting character wreaking this much havoc in numerical values dependent on the written standard of currencies. Just like electrical outlets with
+different shapes around the world causing headaches for unprepared tourists, this lack of consensus in format creeped its way into polluting this database.
+
+The modelling exercise still holds didactic value nonetheless, and more importantly the case was solved. Lets us all remember, however, that a comma always project two shadows,
+and that we must be prepared to identify which is the right one, lest the second shadow stabs us in the back when we least expect it.
+
 <p align="center">
     <img width="100%" src="Images/ohoh.png">
 </p>
