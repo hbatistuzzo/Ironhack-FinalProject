@@ -256,7 +256,7 @@ was perhaps a bit too high to be actually useful in salary estimates. If we take
 from an accurate answer, then the error itself is as big as an actual salary: over 45k US$/year.
 
 <p align="center">
-    <img width="100%" src="Images/model1.png">
+    <img width="100%" src="Images/model2.png">
 </p>
 
 This came as a surprising result, given that the shining star of the whole 2018 Stack Overflow Survey was the curated "Converted Salary" item that normalized every
@@ -264,12 +264,12 @@ salary entry to a single standard: yearly salary in US$. The model was already t
 at the data itself. This investigation highlighted some odd entries, such as the one below, that deviated from an actual full-term salary.
 
 <p align="center">
-    <img width="100%" src="Images/model2.png">
+    <img width="100%" src="Images/model3.png">
 </p>
 
 But much more important (and that, in my opinion, shed light on the model's behaviour) was the following entry:
 <p align="center">
-    <img width="100%" src="Images/model3.png">
+    <img width="100%" src="Images/model4.png">
 </p>
 
 blablabla
