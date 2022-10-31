@@ -164,12 +164,16 @@ Queries were made directly in MySQL workbench after ingestion, as seen in this e
 Below are the questions and their respective answers for the AME-Digital case.
 
 -- What is the quantatity of respondents by country?
+
+
 SELECT Country, COUNT(*) from respondente
 JOIN country on country.Country_id = respondente.Country_id
 GROUP BY Country
 ORDER BY COUNT(*) DESC;
 
 -- How many users from the US prefer Windows OS?
+
+
 SELECT * from respondente
 JOIN country on country.Country_id = respondente.Country_id
 JOIN os on os.OS_id = respondente.OS_id
@@ -177,6 +181,8 @@ WHERE Country = 'United States' and OperatingSystem = 'Windows';
 	-- returns 7635 users
 
 -- What is the salary average for users from Israel who prefer Linux?
+
+
 SELECT AVG(ConvertedSalary) from respondente
 JOIN country on country.Country_id = respondente.Country_id
 JOIN os on os.OS_id = respondente.OS_id
@@ -186,6 +192,8 @@ WHERE Country = 'Israel' and OperatingSystem = 'Linux-based'  and CSMR != 0;
     -- 'ConvertedSalary' is yearly in USD
 
 -- What is the mean and standard deviation for users' salaries who use Slack, for each available size of companies?
+
+
 SELECT CompanySize,AVG(ConvertedSalary),STDDEV(ConvertedSalary) from respondente
 join resp_usa_ferramenta as ruf on ruf.respondent = respondente.respondent
 join tool on tool.Tool_id = ruf.Tool_id
@@ -196,11 +204,14 @@ ORDER BY AVG(ConvertedSalary);
 	-- 29483 users who use slack. Now to group by companysize
 
 -- What is the diference in salary mean for Brazilian respondents who code as a hobby and those for all Brazilian respondents, grouped by OS?
+
+
 SELECT OperatingSystem,AVG(ConvertedSalary) as media_hobby from respondente
 JOIN country on country.Country_id = respondente.Country_id
 JOIN os on os.OS_id = respondente.OS_id
 where Country = 'Brazil' and Hobby = 1
 GROUP BY OperatingSystem;
+
 SELECT OperatingSystem,AVG(ConvertedSalary) as media_geral from respondente
 JOIN country on country.Country_id = respondente.Country_id
 JOIN os on os.OS_id = respondente.OS_id
@@ -208,6 +219,8 @@ where Country = 'Brazil'
 GROUP BY OperatingSystem;
 
 -- What are the top 3 technologies more frequently used by developers?
+
+
 SELECT CommunicationTools,COUNT(CommunicationTools) from respondente
 join resp_usa_ferramenta as ruf on ruf.respondent = respondente.respondent
 join tool on tool.Tool_id = ruf.Tool_id
@@ -218,6 +231,8 @@ LIMIT 3;
 	-- Slack, Jira, Office
 
 -- What are the top 5 countries in terms of salary?
+
+
 SELECT Country, AVG(ConvertedSalary) from respondente
 JOIN country on country.Country_id = respondente.Country_id
 where ConvertedSalary != 0
