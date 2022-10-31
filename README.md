@@ -241,17 +241,33 @@ ORDER BY AVG(ConvertedSalary) DESC;
 
 # Modelling
 
-blablabla
+The case was solved, so it was time to delve deeper. The database provided a good opportunity to implement a predictive model, namely one who could provide a salary estimate
+based on respondents' answers to other related questions: company size, if they coded as a hobby, how many years of experience with coding etc.
+A first attempt was made with SKLearn, by creating labels and splitting a training and testing dataset:
+
+<p align="center">
+    <img width="100%" src="Images/model.png">
+</p>
+
+Once the first model ran without errors, I decided to try a second run with the (arguably) much more powerful Pycaret tool, since it already has functions implemented for
+comparing a number of models and later evaluating each one. A GradientBoosterRegressor (gbr) model yielded the best results, and indeed the Feature Importance Plot indicated
+that the most relevant components were being used to provide better estimates of salary. Still, as indicated by this conspicuous red arrow on the image below, the RMSE
+was perhaps a bit too high to be actually useful in salary estimates. If we take the Root Mean Squared Error, in this context, as a proxy to indicate by how much the model deviates
+from an accurate answer, then the error itself is as big as an actual salary: over 45k US$/year.
+
 <p align="center">
     <img width="100%" src="Images/model1.png">
 </p>
 
-blablabla
+This came as a surprising result, given that the shining star of the whole 2018 Stack Overflow Survey was the curated "Converted Salary" item that normalized every
+salary entry to a single standard: yearly salary in US$. The model was already tailored to ignoring outliers and other discrepancies, so this result beckoned a closer look
+at the data itself. This investigation highlighted some odd entries, such as the one below, that deviated from an actual full-term salary.
+
 <p align="center">
     <img width="100%" src="Images/model2.png">
 </p>
 
-blablabla
+But much more important (and that, in my opinion, shed light on the model's behaviour) was the following entry:
 <p align="center">
     <img width="100%" src="Images/model3.png">
 </p>
