@@ -155,12 +155,74 @@ The data bank structure is provided in the case documentation and can be seen in
 </p>
 
 
-Queries were made directly in MySQL workbench after ingestion, as seen in the example below.
+Queries were made directly in MySQL workbench after ingestion, as seen in this example:
 
 <p align="center">
     <img width="100%" src="Images/query.png">
 </p>
 
+Below are the questions and their respective answers for the AME-Digital case.
+
+-- What is the quantatity of respondents by country?
+SELECT Country, COUNT(*) from respondente
+JOIN country on country.Country_id = respondente.Country_id
+GROUP BY Country
+ORDER BY COUNT(*) DESC;
+
+-- How many users from the US prefer Windows OS?
+SELECT * from respondente
+JOIN country on country.Country_id = respondente.Country_id
+JOIN os on os.OS_id = respondente.OS_id
+WHERE Country = 'United States' and OperatingSystem = 'Windows';
+	-- returns 7635 users
+
+-- What is the salary average for users from Israel who prefer Linux?
+SELECT AVG(ConvertedSalary) from respondente
+JOIN country on country.Country_id = respondente.Country_id
+JOIN os on os.OS_id = respondente.OS_id
+WHERE Country = 'Israel' and OperatingSystem = 'Linux-based'  and CSMR != 0;
+	-- returns 178 users in total, but only 93 with actual salary input. CSMR mean yields 43487.84135304659 monthly reais
+    -- 'CSMR' stands for ConvertedSalaryMonthlyReais
+    -- 'ConvertedSalary' is yearly in USD
+
+-- What is the mean and standard deviation for users' salaries who use Slack, for each available size of companies?
+SELECT CompanySize,AVG(ConvertedSalary),STDDEV(ConvertedSalary) from respondente
+join resp_usa_ferramenta as ruf on ruf.respondent = respondente.respondent
+join tool on tool.Tool_id = ruf.Tool_id
+join companies on companies.Company_id = respondente.Company_id
+where CommunicationTools = 'Slack' and CSMR != 0
+GROUP BY CompanySize
+ORDER BY AVG(ConvertedSalary);
+	-- 29483 users who use slack. Now to group by companysize
+
+-- What is the diference in salary mean for Brazilian respondents who code as a hobby and those for all Brazilian respondents, grouped by OS?
+SELECT OperatingSystem,AVG(ConvertedSalary) as media_hobby from respondente
+JOIN country on country.Country_id = respondente.Country_id
+JOIN os on os.OS_id = respondente.OS_id
+where Country = 'Brazil' and Hobby = 1
+GROUP BY OperatingSystem;
+SELECT OperatingSystem,AVG(ConvertedSalary) as media_geral from respondente
+JOIN country on country.Country_id = respondente.Country_id
+JOIN os on os.OS_id = respondente.OS_id
+where Country = 'Brazil'
+GROUP BY OperatingSystem;
+
+-- What are the top 3 technologies more frequently used by developers?
+SELECT CommunicationTools,COUNT(CommunicationTools) from respondente
+join resp_usa_ferramenta as ruf on ruf.respondent = respondente.respondent
+join tool on tool.Tool_id = ruf.Tool_id
+join companies on companies.Company_id = respondente.Company_id
+GROUP BY CommunicationTools
+ORDER BY Count(CommunicationTools) DESC
+LIMIT 3;
+	-- Slack, Jira, Office
+
+-- What are the top 5 countries in terms of salary?
+SELECT Country, AVG(ConvertedSalary) from respondente
+JOIN country on country.Country_id = respondente.Country_id
+where ConvertedSalary != 0
+GROUP BY Country
+ORDER BY AVG(ConvertedSalary) DESC;
 
 # Modelling
 
