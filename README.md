@@ -283,8 +283,8 @@ The oxford comma is known to be the origin of myriad semantic misinterpretations
 however, to see this unsuspecting character wreaking this much havoc in numerical values dependent on the written standard of currencies. Just like electrical outlets with
 different shapes around the world causing headaches for unprepared tourists, this lack of consensus in format creeped its way into polluting this database.
 
-The modelling exercise still holds didactic value nonetheless, and more importantly the case was solved. Lets us all remember, however, that a comma always project two shadows,
-and that we must be prepared to identify which is the right one, lest the second shadow stabs us in the back when we least expect it.
+The modelling exercise still holds didactic value nonetheless, and more importantly the case was solved.The big takeaway? A comma always project two shadows,
+and we must be prepared to identify which is the right one, lest the second stabs us right  in the back, AFTER you already ran your predictive models on what seemed to be a pristine source of data.
 
 <p align="center">
     <img width="100%" src="Images/ohoh.png">
