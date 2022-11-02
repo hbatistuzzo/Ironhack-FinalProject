@@ -19,17 +19,16 @@ This predictive model lead to interesting conclusions about the case itself, whi
 
 # Technologies
 
-Python
-
-MySQL
-
-SQLAlchemy
-
-Pandas
-
-Sklearn
-
-Tableau
+- Python 3.8.13
+	- Pandas 1.4.4
+	- Numpy 1.20.3
+	- Pycaret 2.3.10
+	- Seaborn 0.11.2
+	- Matplotlib 3.5.3
+	- SQLAlchemy 1.4.42
+	- Scikit-learn 1.1
+- MySQL 8.0
+- Tableau 2022.3
 
 # Project Description
 
