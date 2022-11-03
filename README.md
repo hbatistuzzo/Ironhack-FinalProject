@@ -6,8 +6,9 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/hbatistuzzo/Ironhack-Final-Project)
 
 Project status: Completed
-<p align="right"><img src="Images/ironbadge.png" width="20%" alt="Logo"></p>
+<p align="right"><img src="Images/ironbadge.png" width="40%" alt="Logo"></p>
 
+---
 # Project objective
 
 This data viz project comes from the fintech AME-Digital's case for Data Engineers.
