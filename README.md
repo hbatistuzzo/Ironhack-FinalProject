@@ -1,13 +1,9 @@
 # Ironhack Final Project: Case AME-Digital
 
-![GitHub top language](https://img.shields.io/github/languages/top/hbatistuzzo/
-Ironhack-Final-Project)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/hbatistuzzo/
-Ironhack-Final-Project)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hbatistuzzo/
-Ironhack-Final-Project)
-![GitHub last commit](https://img.shields.io/github/last-commit/hbatistuzzo/
-Ironhack-Final-Project)
+![GitHub top language](https://img.shields.io/github/languages/top/hbatistuzzo/Ironhack-Final-Project)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/hbatistuzzo/Ironhack-Final-Project)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hbatistuzzo/Ironhack-Final-Project)
+![GitHub last commit](https://img.shields.io/github/last-commit/hbatistuzzo/Ironhack-Final-Project)
 
 Project status: Completed
 <p align="right"><img src="Images/ironbadge.png" width="20%" alt="Logo"></p>
