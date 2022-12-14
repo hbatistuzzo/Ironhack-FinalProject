@@ -19,10 +19,6 @@ Nearly 100,000 developers took the 30-minute survey in January 2018, answering a
 
 The case sets specific goals: answering questions regarding average salary of respondents, where they are from, what technologies and communication tools they use etc.
 
-This final project, however, aimed to go beyond the case itself. Since the focus is on salary data, I've implemented a predictive model that gives a salary estimate based on a number of factors: how long one has worked with programming, what is the size of the company one's currently working in, what country one's working in etc.
-
-This predictive model lead to interesting conclusions about the case itself, which I will detail further below.
-
 # Technologies
 
 - Python 3.8.13
