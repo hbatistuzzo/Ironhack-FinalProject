@@ -21,14 +21,14 @@ The case sets specific goals: answering questions regarding average salary of re
 
 # Technologies
 
-- Python 3.8.13
-	- Pandas 1.4.4
-	- Numpy 1.20.3
+- Python 3.9.15
+	- Pandas 1.5.2
+	- Numpy 1.21.6
 	- Pycaret 2.3.10
-	- Seaborn 0.11.2
-	- Matplotlib 3.5.3
+	- Seaborn 0.12.1
+	- Matplotlib 3.6.2
 	- SQLAlchemy 1.4.42
-	- Scikit-learn 1.1
+	- Scikit-learn 1.0.2
 - MySQL 8.0
 - Tableau 2022.3
 
@@ -42,10 +42,12 @@ The case itself is heavily focused on SQL queries. It is divided into 2 portions
 
 My final project aimed to focus on data viz, thus after answering the case's questions my goal was to generate insights from respondents' salary data.
 
-
 # Steps
 
 ## Data Inspection and cleaning
+
+The `survey_results_schema.csv` file contains each column name from the main results along with the question text corresponding to that column.
+The `surveyresultspublic.csv` file (available on the Kaggle link provided above) contains the main survey results, one respondent per row and one column per question.
 
 Of a total of 98,855 respondents, 67,441 (68.2%) fully completed the survey. Their answers are available in the csv file "survey_results_public.csv" and were transported into a
 Pandas DataFrame for inspection. As the snapshot below shows, most of the data was previously curated.
