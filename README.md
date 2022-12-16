@@ -21,16 +21,7 @@ The case sets specific goals: answering questions regarding average salary of re
 
 # Technologies
 
-- Python 3.9.15
-	- Pandas 1.5.2
-	- Numpy 1.21.6
-	- Pycaret 2.3.10
-	- Seaborn 0.12.1
-	- Matplotlib 3.6.2
-	- SQLAlchemy 1.4.42
-	- Scikit-learn 1.0.2
-- MySQL 8.0
-- Tableau 2022.3
+
 
 # Project Description
 
