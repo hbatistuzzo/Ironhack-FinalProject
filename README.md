@@ -11,10 +11,6 @@ Project status: Completed
 ---
 # Project objective
 
-This data viz project comes from the fintech AME-Digital's case for Data Engineers.
-The case itself is based on the Stack Overflow 2018 Developer Survey (available on Kaggle: https://www.kaggle.com/datasets/stackoverflow/stack-overflow-2018-developer-survey).
-Nearly 100,000 developers took the 30-minute survey in January 2018, answering a total of 129 questions ranging from basic info (gender, age, job title, annual salary estimate) to subjective opinions regarding ethics in coding and responsability towards AI creations.
-
 ![plot](Images/intro.jpg)
 
 The case sets specific goals: answering questions regarding average salary of respondents, where they are from, what technologies and communication tools they use etc.
