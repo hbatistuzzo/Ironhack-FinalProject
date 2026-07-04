@@ -188,6 +188,8 @@ After these inspections were done, it was finally time to construct the databank
 
 ## Populating the data bank.
 
+> **A note on the data.** The small lookup tables that make up the data bank (`Data/Companies.csv`, `Data/Country.csv`, `Data/OS.csv`, `Data/language.csv`, `Data/tool.csv`) and the column schema (`survey_results_schema.csv`) are kept in this repo. The large raw and generated tables (`survey_results_public.csv`, plus the derived `Respondente`, `datamod.csv`, `df_model2.csv`, `resp_usa_ferramenta.csv` and `resp_usa_linguagem.csv`) are **not** committed to keep the repo lightweight. Download the original survey from [Kaggle](https://www.kaggle.com/datasets/stackoverflow/stack-overflow-2018-developer-survey) and re-run the notebooks (`case_AME.ipynb`, `case_AME2.ipynb`) to regenerate the derived tables.
+
 The data bank structure is provided in the case documentation and can be seen in the figure below:
 
 <p align="center">

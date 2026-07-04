@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Large / generated survey datasets (see README "Data" note; regenerate from the notebooks or Kaggle)
+Data/Respondente
+Data/datamod.csv
+Data/df_model2.csv
+Data/resp_usa_ferramenta.csv
+Data/resp_usa_linguagem.csv
